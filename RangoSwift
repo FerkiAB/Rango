@@ -1,0 +1,23 @@
+//Fernando Aguilar
+
+import UIKit
+
+for rango : Int in 0...100{
+    if rango == 0{
+        print( "\(rango) par!!!")
+    }
+    else if 30 <= rango && rango <= 40{
+        print( "\(rango) Viva Swift!!!")
+    }
+    else{
+        if rango%5 == 0{
+            print( "\(rango) bingo!!!")
+        }
+        else if rango%2 == 0{
+            print( "\(rango) par!!!")
+        }
+        else if rango%2 != 0{
+            print( "\(rango) impar!!!")
+        }
+    }
+}
